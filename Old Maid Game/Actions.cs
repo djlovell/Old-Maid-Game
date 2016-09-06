@@ -23,5 +23,18 @@ namespace Old_Maid_Game
             }
         }
 
+        public void DealOut(Player[] players, Deck d)
+        {
+            int deckIndex = 0;
+
+            while(deckIndex < 53)
+            {
+                foreach(Player p in players)
+                {
+
+                }
+            }
+        }
+
     }
 }

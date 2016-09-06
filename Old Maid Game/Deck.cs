@@ -26,6 +26,9 @@ namespace Old_Maid_Game
             _deck[52] = new Card(5, 14);
         }
 
+        /// <summary>
+        /// Display cards in deck, was used to debug deck creation
+        /// </summary>
         public void DisplayDeck()
         {
             foreach (Card cd in _deck)
@@ -40,6 +43,7 @@ namespace Old_Maid_Game
             a.Shuffle(_deck);
         }
 
+       
        
     }
 }

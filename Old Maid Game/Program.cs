@@ -11,7 +11,7 @@ namespace Old_Maid_Game
         static void Main(string[] args)
         {
             Deck d = new Deck();
-            d.DisplayDeck();
+            //d.DisplayDeck();
             d.Shuffle(); //Deck is now created and shuffled, ready for gameplay.
 
             int numberOfPlayers = 0;

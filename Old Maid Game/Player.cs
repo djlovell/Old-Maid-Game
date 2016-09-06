@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace Old_Maid_Game
 {
-    class Hand
+    class Player
     {
-        private Card[] _hand;
+        private List<Card> _hand;
 
-        public void Shuffle()
+        public Player()
         {
-            Actions a = new Actions();
-            a.Shuffle(_hand);
-        }
-
-
+            _hand = new List<Card>
     }
 }
