@@ -26,6 +26,14 @@ namespace Old_Maid_Game
             _deck[52] = new Card(5, 14);
         }
 
+        public Card[] CardsInDeck
+        {
+            get
+            {
+                return _deck;
+            }
+        }
+
         /// <summary>
         /// Display cards in deck, was used to debug deck creation
         /// </summary>
@@ -43,7 +51,24 @@ namespace Old_Maid_Game
             a.Shuffle(_deck);
         }
 
-       
-       
+        public void DealOut(List<Player> players)
+        {
+            int deckIndex = 52;
+
+            while (deckIndex >= 0)
+            {
+                foreach (Player p in players)
+                {
+                    if (deckIndex >= 0)
+                    {
+                        p.AddCard(CardsInDeck[deckIndex]);
+                        deckIndex--;
+                    }
+                }
+            }
+        }
+
+
+
     }
 }

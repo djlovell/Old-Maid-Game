@@ -4,3 +4,9 @@ C:\Users\djlovell\Desktop\CIS 501\Old Maid Game\bin\Debug\Old Maid Game.pdb
 C:\Users\djlovell\Desktop\CIS 501\Old Maid Game\obj\Debug\Old Maid Game.csprojResolveAssemblyReference.cache
 C:\Users\djlovell\Desktop\CIS 501\Old Maid Game\obj\Debug\Old Maid Game.exe
 C:\Users\djlovell\Desktop\CIS 501\Old Maid Game\obj\Debug\Old Maid Game.pdb
+C:\Users\djlovell\Desktop\501 Projects\Old-Maid-Game\Old Maid Game\bin\Debug\Old Maid Game.exe.config
+C:\Users\djlovell\Desktop\501 Projects\Old-Maid-Game\Old Maid Game\obj\Debug\Old Maid Game.exe
+C:\Users\djlovell\Desktop\501 Projects\Old-Maid-Game\Old Maid Game\obj\Debug\Old Maid Game.pdb
+C:\Users\djlovell\Desktop\501 Projects\Old-Maid-Game\Old Maid Game\bin\Debug\Old Maid Game.exe
+C:\Users\djlovell\Desktop\501 Projects\Old-Maid-Game\Old Maid Game\bin\Debug\Old Maid Game.pdb
+C:\Users\djlovell\Desktop\501 Projects\Old-Maid-Game\Old Maid Game\obj\Debug\Old Maid Game.csprojResolveAssemblyReference.cache

@@ -57,12 +57,15 @@ namespace Old_Maid_Game
                 else
                     suitName = "D";
 
-                if (_rank > 1 && _rank <= 10)
+                if (_rank > 1 && _rank < 10)
                     rankName = _rank.ToString();
                 else
                 {
                     switch (_rank)
                     {
+                        case (10):
+                            rankName = "T";
+                            break;
                         case (1):
                             rankName = "A";
                             break;
