@@ -23,7 +23,7 @@ namespace Old_Maid_Game
                     index++;
                 }
             }
-            _deck[52] = new Card(5, 14);
+            _deck[52] = new Card(14, 5);
         }
 
         public Card[] CardsInDeck
@@ -39,9 +39,9 @@ namespace Old_Maid_Game
         /// </summary>
         public void DisplayDeck()
         {
-            foreach (Card cd in _deck)
+            foreach (Card c in _deck)
             {
-                Console.WriteLine(cd.ToString());
+                Console.WriteLine(c.ToString() + "(" + c.Rank.ToString() + ")");
             }
         }
 

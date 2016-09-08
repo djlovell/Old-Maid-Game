@@ -67,6 +67,19 @@ namespace Old_Maid_Game
             return temp.ToString();
         }
 
+        public string DisplayIndices()
+        {
+            StringBuilder temp = new StringBuilder();
+            temp.Append("Index".PadRight(7) + " : ");
+            int index = 0;
+            foreach (Card c in _hand)
+            {
+                temp.Append(index.ToString().PadLeft(2) + " ");
+                index++;
+            }
+            return temp.ToString();
+        }
+
         public void DiscardPairs()
         {
             bool[] isPair = new bool[Hand.Count];
@@ -79,25 +92,14 @@ namespace Old_Maid_Game
                     {
                         isPair[i] = true;
                         isPair[j] = true;
-                        removals.Add(j);
                         removals.Add(i);
+                        removals.Add(j);
                     }
                 }
             }
             removals.Sort();
-            Stack<int> s = new Stack<int>();
-            int count = removals.Count;
-            for(int l = 0; l < count; l++)
-            {
-                s.Push(removals[0]);
-                removals.RemoveAt(0);
-            }
-            for(int m = 0; m < s.Count; m++)
-            {
-                removals.Add(s.Pop());
-            }
-            //List of removal indices is now sorted in descending order, so removing one at a time won't mess up order.
-
+            removals.Reverse();
+            
             foreach(int r in removals)
             {
                 Hand.RemoveAt(r);
