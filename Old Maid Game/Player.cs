@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Player.cs
+ * Author: Daniel Lovell 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Old_Maid_Game
 {
+    /// <summary>
+    /// Defines a player and their hand of cards.
+    /// </summary>
     class Player
     {
         private List<Card> _hand;

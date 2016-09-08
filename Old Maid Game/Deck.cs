@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Deck.cs
+ * Author: Daniel Lovell 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Old_Maid_Game
 {
+    /// <summary>
+    /// Defines a standard deck of cards with the addition of an additional Old Maid card.
+    /// </summary>
     class Deck
     {
         private Card[] _deck;

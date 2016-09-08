@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Card.cs
+ * Author: Daniel Lovell 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Old_Maid_Game
 {
+    //Defines a standard playing card.
     class Card
     {
         private int _rank;
